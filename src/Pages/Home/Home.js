@@ -2,6 +2,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet';
 
 import Resume from './partials/Resume'
+import Projects from './partials/projects'
 
 import Header from '../../Static/partials/Header'
 import Footer from '../../Static/partials/Footer'
@@ -11,7 +12,7 @@ import Grant_Photo from "./Grant-Photo.jpg"
 
 export default function Home() {
     return (
-        <>
+        <div class="min-w-[1200px]">
             <Helmet>
                 <title>Home</title>
             </Helmet>
@@ -27,9 +28,11 @@ export default function Home() {
                 </div>
                 <div class="w-[35vw] h-[5vh] bg-black on_mobile:h-0"></div>
                 <Resume />
+                <div class="w-[35vw] h-[10vh] on_mobile:h-0"></div>
+                <Projects />
                 <div class="mb-[8vh]"></div>
                 <Footer />
             </div>
-        </>
+        </div>
     )
 }

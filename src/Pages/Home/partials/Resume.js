@@ -6,7 +6,7 @@ export default function Resume() {
         <div class="bg-black m-auto pt-[5vh] pb-[7vh]">
             <div class="w-[90%] m-auto">
                 <div>
-                    <h3 class="text-text_grey text-2xl on_mobile:pb-4">Work Experience</h3>
+                    <h3 class="text-text_grey text-[2.2rem] on_mobile:pb-4">Work Experience</h3>
                     <h4 class="py-[1.25vh] text-6xl text-text_blue">Past Employment</h4>
                     <div class="flex on_mobile:flex-col gap-[10vw] mt-[2vh] text-4xl">
                         <div class="text-[2.75rem]">
