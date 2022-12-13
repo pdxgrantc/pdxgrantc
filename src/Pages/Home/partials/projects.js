@@ -27,8 +27,8 @@ export default function Projects() {
                     <div class="flex on_mobile:flex-col gap-[10vw] mt-[2vh] text-4xl">
                         <div class="text-[2.75rem]">
                             <div class="on_mobile:pb-3">
-                                <h5 class="on_mobile:leading-[2.8rem] on_mobile:pb-2">Free Geek Portland</h5>
-                                <h6 class="pt-[.75rem] text-[1.65rem] on_mobile:leading-[2rem]">Electronics Recycling</h6>
+                                <h5 class="on_mobile:leading-[2.8rem] on_mobile:pb-2">Home Server</h5>
+                                <h6 class="pt-[.75rem] text-[1.65rem] on_mobile:leading-[2rem]">I have created and managed a home server running TrueNAS for basic file storage using ZFS. It also runs mulitle Ubuutu VM's for home automation tasks such as automatic file management and useful scripts. For instance a webs server dedicated to interfacing with a Rasperry Pi to manage my Philips Hue lights. The Python script on the Raspberry Pi listens for IR remote siganls as well as claps as input.</h6>
                             </div>
                         </div>
                     </div>
