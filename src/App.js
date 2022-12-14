@@ -3,10 +3,12 @@ import { BrowserRouter as Router, Routes as Switch, Route } from "react-router-d
 
 import Home from "./Pages/Home/Home";
 import AboutThisSite from "./Pages/AboutThisSite/AboutThisSite";
+import Apps from "./Pages/Apps/Apps";
 import Code from "./Pages/Code/Code";
-import ToDoHomePage from "./Pages/ToDo/ToDoHomePage/ToDoHomePage"
-import NewItem from "./Pages/ToDo/NewItem/NewItem"
+import ToDoHomePage from "./Pages/ToDo/ToDoHomePage/ToDoHomePage";
+import NewItem from "./Pages/ToDo/NewItem/NewItem";
 import ShoppingList from "./Pages/ShoppingList/ShoppingList";
+
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
       <Switch>
         <Route exact path="/" element={<Home />} />
         <Route path="/About-This-Site" element={<AboutThisSite />} />
+        <Route path="/Apps" element={<Apps />} />
         <Route path="/Code" element={<Code />} />
         <Route path="/Shopping-List" element={<ShoppingList />} />
         <Route path="/ToDo" element={<ToDoHomePage />} />
