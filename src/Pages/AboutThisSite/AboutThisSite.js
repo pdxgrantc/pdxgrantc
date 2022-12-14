@@ -21,7 +21,7 @@ export default function AboutThisSite() {
                         <img class="py-[1vh] m-auto w-auto h-[43vh]" src={HomeScreeenshot} alt="HomePage"></img>
                         <div class="w-[42%] flex flex-col justify-center gap-5">
                             <h2 class="text-6xl text-text_pink">Origins</h2>
-                            <h3 class="align-middle leading-[1.1] text-[2.5rem] text-wrap">I developed this site as a display of ability in full stack development. As well as to have a place to host my self developed web apps.</h3>
+                            <h3 class="align-middle leading-[1.1] text-[2.5rem] text-wrap">I developed this site as a display of my ability in full stack development. As well as to have a place to host my self developed web apps used by myself and my friends.</h3>
                         </div>
                     </div>
                     <div class="on_desktop:hidden bg-black">

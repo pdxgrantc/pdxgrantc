@@ -15,6 +15,7 @@ module.exports = {
       button_accent_color: '#5121e5',
       text_blue: "#609bff",
       text_pink: "#e95d90",
+      text_teal: "#14cee3",
     },
     screens: {
       on_desktop: { 'min': '951px' },
