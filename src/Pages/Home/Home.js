@@ -12,7 +12,7 @@ import Grant_Photo from "./Grant-Photo.jpg"
 
 export default function Home() {
     return (
-        <div class="min-w-[1200px]">
+        <div>
             <Helmet>
                 <title>Home</title>
             </Helmet>
