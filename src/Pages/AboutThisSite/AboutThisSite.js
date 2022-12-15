@@ -17,8 +17,8 @@ export default function AboutThisSite() {
                 <Header />
                 <div class="h-[2vh] on_mobile:h-[2vh] w-[35vw] on_desktop:bg-black ml-0"></div>
                 <div class="h-[5vh] on_mobile:h-[2vh] w-[35vw] ml-0 on_mobile:hidden"></div>
-                <div class="on_desktop:px-[3vw] on_desktop:py-[4vh] on_desktop:bg-black m-auto on_mobile:mx-auto on_mobile:w-[90vw] on_mobile:py-[4vh] on_mobile:bg-black">
-                    <div className="on_desktop:w-[96%] on_desktop:m-auto on_desktop:flex on_desktop:gap-[3vh] on_desktop:flex-col">
+                <div class="py-[4vh] m-auto on_desktop:flex on_desktop:flex-col on_desktop:gap-[3vh] on_desktop:px-[3vw] on_desktop:bg-black">
+                    <div class="w-[100%] on_desktop:m-auto on_desktop:flex on_desktop:gap-[3vh] on_desktop:flex-col">
                         <div class="on_mobile:hidden on_desktop:gap-[2vw] w-[100%] flex justify-between bg-black">
                             <img class="py-[1vh] m-auto w-auto h-[43vh]" src={HomeScreeenshot} alt="HomePage"></img>
                             <div class="w-[42%] flex flex-col justify-center gap-5">
