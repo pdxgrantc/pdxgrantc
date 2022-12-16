@@ -8,7 +8,6 @@ import Header from '../../Static/partials/Header'
 import Footer from '../../Static/partials/Footer'
 
 import Grant_Photo from "./Grant-Photo.jpg"
-//<img class="h-[calc(100%-76px)]" src={Grant_Photo} alt="Grant"></img>
 
 export default function Home() {
     return (

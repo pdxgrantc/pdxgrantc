@@ -15,7 +15,7 @@ export default function Apps() {
                 <Header />
                 <div class="h-[2vh] on_mobile:h-[2vh] w-[35vw] on_desktop:bg-black ml-0"></div>
                 <div class="h-[5vh] on_mobile:h-[2vh] w-[35vw] ml-0 on_mobile:hidden"></div>
-                <div class="py-[4vh] m-auto on_desktop:flex on_desktop:flex-col on_desktop:gap-[3vh] on_desktop:px-[3vw] on_desktop:bg-black">
+                <div class="pb-[6vh] py-[5vh] m-auto on_desktop:flex on_desktop:flex-col on_desktop:gap-[3vh] on_desktop:px-[3vw] on_desktop:bg-black">
                     <div class="w-[100%] bg-black on_desktop:gap-[2vw]">
                         <div class="flex flex-col justify-center gap-5 on_mobile:py-[4vh] on_mobile:w-[90%] on_mobile:m-auto">
                             <h2 class="text-6xl text-text_pink">Intro</h2>
