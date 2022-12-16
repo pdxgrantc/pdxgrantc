@@ -1,9 +1,12 @@
 import React from 'react'
 
-export default function AppList({ }) {
+import Application from "./Application";
+
+export default function AppList() {
     return (
         <>
             <p>App List</p>
+            <Application />
         </>
     )
 }

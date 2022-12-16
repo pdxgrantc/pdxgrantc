@@ -2,6 +2,8 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 
+import AppList from "./partials/AppList";
+
 import Header from "../../Static/partials/Header";
 import Footer from "../../Static/partials/Footer";
 
@@ -33,6 +35,7 @@ export default function Apps() {
                         </div>
                     </div>
                 </div>
+                <AppList />
                 <div class="h-[6vh]"></div>
                 <Footer />
             </div>
