@@ -1,6 +1,6 @@
 import React from 'react'
 
-{/* todo impliment local react router for the applications */ }
+/* todo impliment local react router for the applications */
 
 export default function Application() {
     return (
