@@ -9,7 +9,7 @@ export default function Apps() {
     return (
         <>
             <Helmet>
-                <title>About This Site</title>
+                <title>Apps</title>
             </Helmet>
             <div class="m-auto bg-main_bg_color text-text_white">
                 <Header />

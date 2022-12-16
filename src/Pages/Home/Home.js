@@ -28,7 +28,7 @@ export default function Home() {
                 </div>
                 <div class="w-[35vw] h-[5vh] bg-black on_mobile:h-0"></div>
                 <Resume />
-                <div class="w-[35vw] h-[10vh] on_mobile:h-0"></div>
+                <div class="w-[35vw] h-[5vh] on_mobile:h-0"></div>
                 <Projects />
                 <div class="mb-[8vh]"></div>
                 <Footer />
