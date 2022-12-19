@@ -15,9 +15,9 @@ export default function Apps() {
             </Helmet>
             <div class="m-auto bg-main_bg_color text-text_white">
                 <Header />
-                <div class="h-[2vh] on_mobile:h-[2vh] w-[35vw ml-0"></div>
+                <div class="h-[2vh] on_mobile:h-[2vh] w-[35vw] on_desktop:bg-black ml-0"></div>
                 <div class="h-[5vh] on_mobile:h-[2vh] w-[35vw] ml-0 on_mobile:hidden"></div>
-                <div class="m-auto on_desktop:flex on_desktop:flex-col on_desktop:gap-[3vh] ">
+                <div class="m-auto on_desktop:flex on_desktop:flex-col on_desktop:gap-[4vh] ">
                     <div class="on_desktop:bg-black on_desktop:px-[3vw] pb-[6vh] py-[5vh]">
                         <div class="w-[100%] bg-black on_desktop:gap-[2vw]">
                             <div class="flex flex-col justify-center gap-5 on_mobile:py-[4vh] on_mobile:w-[90%] on_mobile:m-auto">
@@ -26,7 +26,7 @@ export default function Apps() {
                                 <Link class="text-[2rem] border-b-[1.5px] on_desktop:hover:bg-button_accent_color on_desktop:hover:ease-[cubic-bezier(0.4, 0, 1, 1)] on_desktop:duration-[350ms] on_desktop:hover:px-[1.25vw] py-[.5vh] whitespace-nowrap w-min" to="/about-this-site">About This Site</Link>
                             </div>
                         </div>
-                        <div class="on_desktop:h-[2vh] on_mobile:h-[4vh] on_desktop:bg-black"></div>
+                        <div class="on_desktop:h-[5vh] on_mobile:h-[4vh] on_desktop:bg-black"></div>
                         <div class="w-[100%] flex on_desktop:gap-[2vw] justify-between on_mobile:flex-col on_mobile:m-auto bg-black">
                             <div class="flex flex-col justify-center gap-5 on_mobile:w-[90%] on_mobile:m-auto on_mobile:py-[4vh]">
                                 <h2 class="text-6xl text-text_blue">Framework</h2>
