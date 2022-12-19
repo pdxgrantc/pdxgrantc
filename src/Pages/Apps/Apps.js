@@ -36,7 +36,7 @@ export default function Apps() {
                             </div>
                         </div>
                     </div>
-                    <div class="on_desktop:bg-black pb-[7vh] py-[5vh]">
+                    <div class="bg-black pb-[7vh] py-[5vh]">
                         <div class="w-[90%] m-auto">
                             <AppList />
                         </div>
