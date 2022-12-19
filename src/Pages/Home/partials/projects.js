@@ -38,7 +38,7 @@ export default function Projects() {
                         <div class="text-[2.75rem]">
                             <div class="on_mobile:pb-3">
                                 <h5 class="on_mobile:leading-[2.8rem] on_mobile:pb-2">This Site </h5>
-                                <h6 class="pt-[.75rem] text-[1.65rem] on_mobile:leading-[2rem]">This site is a React based web application which I wrote entirely by myself more information about its development and the included apps can be found through either of the links below.</h6>
+                                <h6 class="pt-[.75rem] text-[1.65rem] on_mobile:leading-[2rem]">This site is a ReactJS based web application which I wrote entirely by myself more information about its development and the included apps can be found through either of the links below.</h6>
                             </div>
                             <div class="flex gap-12 mt-[2vh]">
                                 <Link class="text-2xl border-b-[1.5px] on_desktop:hover:bg-button_accent_color on_desktop:hover:ease-[cubic-bezier(0.4, 0, 1, 1)] on_desktop:duration-[350ms] on_desktop:hover:px-[1.25vw] py-[.5vh]" to="/about-this-site">About This Site</Link>
