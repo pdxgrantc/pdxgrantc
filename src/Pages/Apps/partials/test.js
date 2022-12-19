@@ -2,12 +2,12 @@
 export const data_items = [
     {
         title: "pdxgrantc.github.io",
-        description: "This is some test text for the first entry on this here page woah so good wow this do be nice do.",
+        description: "This is the GitHub repository for this webiste. As staten in the About This Site page this website was built with ReactJS and Tailwind CSS.", 
         link: "https://www.github.com/pdxgrantc/",
     },
     {
         title: "Grant Conklin Assembly",
-        description: "This is some test text for the second entry on this here page woah so good wow this do be nice do.",
+        description: "This is a GitHub repository for my Assembly language projects. They are all written in MASM and were written for my universtiy course about computer architecture.",
         link: "https://www.github.com/pdxgrantc/",
     },
 ];
