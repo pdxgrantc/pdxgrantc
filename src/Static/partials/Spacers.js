@@ -18,14 +18,14 @@ export default function Spacers({ choice }) {
     else if (choice === "item_footer") {
         return (
             <>
-                <div class="mb-[8vh]"></div>
+                <div class="h-[7vh]"></div>
             </>
         )
     }
     else if (choice === "item_header") {
         return (
             <>
-                <div></div>
+                <div class="h-[6vh]"></div>
             </>
         )
     }

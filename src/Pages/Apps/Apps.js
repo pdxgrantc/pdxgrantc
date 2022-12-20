@@ -19,7 +19,8 @@ export default function Apps() {
                 <div class="h-[2vh] on_mobile:h-[2vh] w-[35vw] on_desktop:bg-black ml-0"></div>
                 <div class="h-[5vh] on_mobile:h-[2vh] w-[35vw] ml-0 on_mobile:hidden"></div>
                 <div class="m-auto on_desktop:flex on_desktop:flex-col on_desktop:gap-[4vh] ">
-                    <div class="on_desktop:bg-black on_desktop:px-[3vw] pb-[6vh] py-[5vh]">
+                    <div class="on_desktop:bg-black on_desktop:px-[3vw]">
+                        <Spacers choice={"item_header"} />
                         <div class="w-[100%] bg-black on_desktop:gap-[2vw]">
                             <div class="flex flex-col justify-center gap-5 on_mobile:py-[4vh] on_mobile:w-[90%] on_mobile:m-auto">
                                 <h2 class="text-6xl text-text_pink">Intro</h2>
@@ -36,11 +37,15 @@ export default function Apps() {
                                 <h3 class="align-middle leading-[1.1] text-[2.5rem] text-wrap">For the visual design and layout of the project I used Tailwind to simplify the CSS implimentation and allow for a cleaner development package.</h3>
                             </div>
                         </div>
+
+                        <Spacers choice={"item_footer"} />
                     </div>
-                    <div class="bg-black pb-[7vh] py-[5vh]">
+                    <div class="bg-black">
+                        <Spacers choice={"item_header"} />
                         <div class="w-[90%] m-auto">
                             <AppList />
                         </div>
+                        <Spacers choice={"item_footer"} />
                     </div>
                 </div>
                 <div class="h-[6vh]"></div>

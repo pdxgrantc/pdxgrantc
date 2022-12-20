@@ -1,9 +1,12 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 
+import Spacers from '../../../Static/partials/Spacers';
+
 export default function Resume() {
     return (
-        <div class="bg-black m-auto pt-[5vh] pb-[7vh]">
+        <div class="bg-black m-auto">
+            <Spacers choice={"item_header"}/>
             <div class="w-[90%] m-auto">
                 <div>
                     <h3 class="text-text_grey text-[2.2rem] on_mobile:pb-4">Work Experience</h3>
@@ -24,7 +27,7 @@ export default function Resume() {
                             <p class="text-[1.2rem] on_mobile:leading-[1.4rem]">Individual user computer support setup and software assistance.</p>
                         </div>
                     </div>
-                    <div class="h-[6vh] on_mobile:h-[6vh]"></div>
+                    <Spacers choice={"item_break"} />
                     <h4 class="py-[1.25vh] text-6xl text-text_pink">Volunteering Experiences</h4>
                     <div class="flex on_mobile:flex-col gap-[10vw] mt-[2vh] text-4xl">
                         <div class="text-[2.75rem]">
@@ -36,10 +39,11 @@ export default function Resume() {
                         </div>
                     </div>
                 </div>
-                <div class="h-[8vh]"></div>
+                <Spacers choice={"item_footer"}/>
                 <div class="w-full">
                     <Link to="/files/Grant-Resume.pdf" target="_blank" class="text-2xl border-b-[1.5px] on_desktop:hover:bg-button_accent_color on_desktop:hover:ease-[cubic-bezier(0.4, 0, 1, 1)] on_desktop:duration-[350ms] on_desktop:hover:px-[1.25vw] py-[.5vh]" download>Resume Download</Link>
                 </div>
+                <Spacers choice={"item_footer"}/>
             </div>
         </div>
     )

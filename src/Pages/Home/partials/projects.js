@@ -5,7 +5,8 @@ import Spacers from '../../../Static/partials/Spacers';
 
 export default function Projects() {
     return (
-        <div class="bg-black m-auto pt-[5vh] pb-[7vh]">
+        <div class="bg-black m-auto">
+            <Spacers choice={"item_header"}/>
             <div class="w-[90%] m-auto">
                 <div>
                     <h3 class="text-text_grey text-[2.2rem] on_mobile:pb-4">Major Projects</h3>
@@ -50,6 +51,7 @@ export default function Projects() {
                     </div>
                 </div>
             </div>
+            <Spacers choice={"item_footer"}/>
         </div>
     )
 }
