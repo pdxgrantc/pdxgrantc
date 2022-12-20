@@ -18,7 +18,7 @@ export default function Spacers({ choice }) {
     else if (choice === "item_footer") {
         return (
             <>
-                <div></div>
+                <div class="mb-[8vh]"></div>
             </>
         )
     }

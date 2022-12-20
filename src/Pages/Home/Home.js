@@ -30,7 +30,7 @@ export default function Home() {
                 <Resume />
                 <Spacers choice={"section_break"} />
                 <Projects />
-                <div class="mb-[8vh]"></div>
+                <Spacers choice={"item_footer"} />
                 <Footer />
             </div>
         </div>
