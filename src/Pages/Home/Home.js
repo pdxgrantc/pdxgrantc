@@ -6,6 +6,7 @@ import Projects from './partials/projects'
 
 import Header from '../../Static/partials/Header'
 import Footer from '../../Static/partials/Footer'
+import Spacers from '../../Static/partials/Spacers';
 
 import Grant_Photo from "./Grant-Photo.jpg"
 
@@ -25,9 +26,9 @@ export default function Home() {
                         <h3 class="text-[4rem] font-semibold text-text_grey on_mobile:text-[2rem]">Student at Oregon State University</h3>
                     </div>
                 </div>
-                <div class="w-[35vw] h-[5vh] bg-black on_mobile:h-0"></div>
+                <Spacers choice={"left_black_break"} />
                 <Resume />
-                <div class="w-[35vw] h-[5vh] on_mobile:h-0"></div>
+                <Spacers choice={"section_break"} />
                 <Projects />
                 <div class="mb-[8vh]"></div>
                 <Footer />

@@ -2,7 +2,7 @@
 export const data_items = [
     {
         title: "pdxgrantc.github.io",
-        description: "This is the GitHub repository for this webiste. As staten in the About This Site page this website was built with ReactJS and Tailwind CSS.", 
+        description: 'This is the GitHub repository for this webiste. As stated in the "About This Site" page this website was built with ReactJS and Tailwind CSS.', 
         link: "https://www.github.com/pdxgrantc/",
     },
     {

@@ -35,7 +35,7 @@ export default function Footer() {
                     <h3 class="text-center">pdxgrantc@gmail.com</h3>
                     <h3 class="text-center">2022</h3>
                 </div>
-                <div class="mb-[5vh]"></div>
+                <div class="mb-[5vh] bg-main_bg_color"></div>
             </div>
         </>
     )

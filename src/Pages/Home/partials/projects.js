@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 
+import Spacers from '../../../Static/partials/Spacers';
+
 export default function Projects() {
     return (
         <div class="bg-black m-auto pt-[5vh] pb-[7vh]">
@@ -22,7 +24,7 @@ export default function Projects() {
                             </div>
                         </div>
                     </div>
-                    <div class="h-[6vh] on_mobile:h-[6vh]"></div>
+                    <Spacers choice={"item_break"} />
                     <h4 class="py-[1.25vh] text-6xl text-text_pink">Personal Projects</h4>
                     <div class="flex on_mobile:flex-col gap-[10vw] mt-[2vh] text-4xl">
                         <div class="text-[2.75rem]">
@@ -32,7 +34,7 @@ export default function Projects() {
                             </div>
                         </div>
                     </div>
-                    <div class="h-[6vh] on_mobile:h-[6vh]"></div>
+                    <Spacers choice={"item_break"} />
                     <h4 class="py-[1.25vh] text-6xl text-text_teal">pdxgrantc.com</h4>
                     <div class="flex on_mobile:flex-col gap-[10vw] mt-[2vh] text-4xl">
                         <div class="text-[2.75rem]">

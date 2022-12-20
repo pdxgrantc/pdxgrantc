@@ -6,6 +6,7 @@ import AppList from "./partials/AppList";
 
 import Header from "../../Static/partials/Header";
 import Footer from "../../Static/partials/Footer";
+import Spacers from "../../Static/partials/Spacers";
 
 export default function Apps() {
     return (
@@ -26,7 +27,7 @@ export default function Apps() {
                                 <Link class="text-[2rem] border-b-[1.5px] on_desktop:hover:bg-button_accent_color on_desktop:hover:ease-[cubic-bezier(0.4, 0, 1, 1)] on_desktop:duration-[350ms] on_desktop:hover:px-[1.25vw] py-[.5vh] whitespace-nowrap w-min" to="/about-this-site">About This Site</Link>
                             </div>
                         </div>
-                        <div class="on_desktop:h-[5vh] on_mobile:h-[4vh] on_desktop:bg-black"></div>
+                        <Spacers choice={"item_break"} />
                         <div class="w-[100%] flex on_desktop:gap-[2vw] justify-between on_mobile:flex-col on_mobile:m-auto bg-black">
                             <div class="flex flex-col justify-center gap-5 on_mobile:w-[90%] on_mobile:m-auto on_mobile:py-[4vh]">
                                 <h2 class="text-6xl text-text_blue">Framework</h2>

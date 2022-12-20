@@ -6,23 +6,21 @@ import { data_items } from "./test"
 
 export default function AppList() {
     return (
-        <>
-            <div class="w-[100%] m-auto">
-                <h2 class="text-6xl text-text_teal">Applications</h2>
-                <div class="h-[4vh]"></div>
-                <div class="flex flex-wrap gap-[3vw] justify-between on_mobile:flex-col on_mobile:gap-[6vh]">
-                    {data_items.map((data) => {
-                        return (
-                            <Application
-                                title={data.title}
-                                description={data.description}
-                                link={data.link}
-                            />
-                        );
-                    })}
-                </div>
+        <div class="w-[100%] m-auto">
+            <h2 class="text-6xl text-text_teal">My GitHub Repositories</h2>
+            <div class="h-[4vh]"></div>
+            <div class="flex flex-wrap gap-[3vw] justify-between on_mobile:flex-col on_mobile:gap-[6vh]">
+                {data_items.map((data) => {
+                    return (
+                        <Application
+                            title={data.title}
+                            description={data.description}
+                            link={data.link}
+                        />
+                    );
+                })}
             </div>
-        </>
+        </div>
     )
 }
 
