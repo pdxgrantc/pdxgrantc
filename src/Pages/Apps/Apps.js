@@ -37,7 +37,6 @@ export default function Apps() {
                                 <h3 class="align-middle leading-[1.1] text-[2.5rem] text-wrap">For the visual design and layout of the project I used Tailwind to simplify the CSS implimentation and allow for a cleaner development package.</h3>
                             </div>
                         </div>
-
                         <Spacers choice={"item_footer"} />
                     </div>
                     <div class="bg-black">

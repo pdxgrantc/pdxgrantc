@@ -33,7 +33,7 @@ function get_link(link, title) {
 const Application = ({ title, description, link }) => {
     return (
         <>
-            <div class="on_desktop:min-w-[30%] w-fit h-fit on_mobile:w-[100%] min-h-[30vh] bg-button_pressed_color">
+            <div class="on_desktop:min-w-[30%] w-fit h-fit on_mobile:w-[100%] min-h-[30vh] bg-apps_bg_color">
                 <div class="p-[5%]">
                     <div class="flex flex-nowrap justify-between h-min">
                         <div>
