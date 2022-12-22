@@ -41,15 +41,17 @@ export default function Apps() {
                         <Spacers choice={"item_footer"} />
                     </div>
                     <div class="bg-black">
-                        <Spacers choice={"item_header"} />
-                        <div class="w-[90%] m-auto">
-                            <GitHubApps />
+                        <div>
+                            <Spacers choice={"item_header"} />
+                            <div class="w-[90%] m-auto">
+                                <GitHubApps />
+                            </div>
+                            <Spacers choice={"item_break"} />
+                            <div class="w-[90%] m-auto">
+                                <WebApps />
+                            </div>
+                            <Spacers choice={"item_footer"} />
                         </div>
-                        <Spacers choice={"item_break"} />
-                        <div class="w-[90%] m-auto">
-                            <WebApps />
-                        </div>
-                        <Spacers choice={"item_footer"} />
                     </div>
                 </div>
                 <div class="h-[6vh]"></div>

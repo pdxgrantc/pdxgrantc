@@ -1,8 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react'
 import { v4 as uuidv4 } from 'uuid'
 
-import Header from '../../Static/partials/Header'
-import Footer from '../../Static/partials/Footer'
+import Header from '../../../../Static/partials/Header'
+import Footer from '../../../../Static/partials/Footer'
 
 import UnpurchasedItems from './partials/UnpurchasedItems'
 import BoughtItems from './partials/BoughtItems'

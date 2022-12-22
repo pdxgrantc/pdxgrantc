@@ -1,13 +1,13 @@
 
-export const web_items = [
+export const WebItems = [
     {
         title: "Shopping List",
         description: "In Development", 
-        link: "apps/shopping-list",
+        link: "Shopping-List",
     },
     {
         title: "ToDo",
         description: "In Development",
-        link: "apps/todo-list",
+        link: "ToDo",
     },
 ];
