@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 
-import AppList from "./partials/AppList";
+import GitHubApps from "./partials/GitHubApps";
 
 import Header from "../../Static/partials/Header";
 import Footer from "../../Static/partials/Footer";
@@ -42,7 +42,7 @@ export default function Apps() {
                     <div class="bg-black">
                         <Spacers choice={"item_header"} />
                         <div class="w-[90%] m-auto">
-                            <AppList />
+                            <GitHubApps />
                         </div>
                         <Spacers choice={"item_footer"} />
                     </div>

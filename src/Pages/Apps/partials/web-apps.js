@@ -1,5 +1,5 @@
 
-export const data_items = [
+export const web_items = [
     {
         title: "pdxgrantc.github.io",
         description: 'This is the GitHub repository for this webiste. As stated in the "About This Site" page this website was built with ReactJS and Tailwind CSS.', 

@@ -1,16 +1,14 @@
 import React from 'react'
 
+import { github_items } from "./github-apps"
 
-
-import { data_items } from "./test"
-
-export default function AppList() {
+export default function GitHub_Apps() {
     return (
         <div class="w-[100%] m-auto">
             <h2 class="text-6xl text-text_teal">My GitHub Repositories</h2>
             <div class="h-[4vh]"></div>
             <div class="flex flex-wrap gap-[3vw] justify-between on_mobile:flex-col on_mobile:gap-[6vh]">
-                {data_items.map((data) => {
+                {github_items.map((data) => {
                     return (
                         <Application
                             title={data.title}
@@ -46,7 +44,3 @@ const Application = ({ title, description, link }) => {
         </>
     );
 };
-
-
-
-
