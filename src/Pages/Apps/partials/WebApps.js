@@ -8,7 +8,7 @@ export default function WebApps() {
             <h2 class="text-6xl text-text_teal">Web Apps</h2>
             <div class="h-[4vh]"></div>
             <div class="flex flex-wrap gap-[3vw] justify-between on_mobile:flex-col on_mobile:gap-[6vh]">
-                {github_items.map((data) => {
+                {web_items.map((data) => {
                     return (
                         <Application
                             title={data.title}
