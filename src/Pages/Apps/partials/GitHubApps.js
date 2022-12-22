@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { github_items } from "./github-apps"
+import { github_items } from "./DataFiles/github-apps"
 
 export default function GitHub_Apps() {
     return (

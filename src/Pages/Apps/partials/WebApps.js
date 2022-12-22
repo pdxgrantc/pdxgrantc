@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-import { WebItems } from "./web-apps"
+import { WebItems } from "./DataFiles/web-apps"
 
 export default function WebApps() {
     return (
