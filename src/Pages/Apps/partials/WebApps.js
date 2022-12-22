@@ -6,9 +6,9 @@ import { WebItems } from "./web-apps"
 export default function WebApps() {
     return (
         <div class="w-[100%] m-auto">
-            <h2 class="text-6xl text-text_teal">Web Apps</h2>
+            <h2 class="text-6xl text-text_pink">Web Apps</h2>
             <div class="h-[4vh]"></div>
-            <div class="flex flex-wrap gap-[3vw] justify-between on_mobile:flex-col on_mobile:gap-[6vh]">
+            <div class="flex flex-wrap justify-between on_mobile:flex-col on_mobile:gap-[5%]">
                 {WebItems.map((data) => {
                     return (
                         <Application
@@ -32,7 +32,7 @@ function get_link(title) {
 const Application = ({ title, description, link }) => {
     return (
         <>
-            <div class="on_desktop:min-w-[30%] w-fit h-fit on_mobile:w-[100%] min-h-[30vh] bg-apps_bg_color">
+            <div class="on_desktop:w-[47%] on_desktop:min-w-[400px] w-fit h-fit on_mobile:w-[100%] min-h-[30vh] bg-apps_bg_color">
                 <div class="p-[5%]">
                     <div class="flex flex-nowrap justify-between h-min">
                         <div>
