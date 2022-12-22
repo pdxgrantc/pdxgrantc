@@ -40,6 +40,7 @@ export default function Apps() {
                         </div>
                         <Spacers choice={"item_footer"} />
                     </div>
+                    <Spacers choice={""}/>
                     <div class="bg-black">
                         <div>
                             <Spacers choice={"item_header"} />

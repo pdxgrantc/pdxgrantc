@@ -14,6 +14,7 @@ module.exports = {
       button_pressed_color: '#475266',
       button_accent_color: '#5121e5',
       apps_bg_color: '#1f1f2b',
+      apps_bg_pressed: '#3a3a45',
       text_blue: "#609bff",
       text_pink: "#e95d90",
       text_teal: "#14cee3",

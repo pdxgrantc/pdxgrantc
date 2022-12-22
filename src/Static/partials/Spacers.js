@@ -1,10 +1,10 @@
 import React from 'react'
 
 export default function Spacers({ choice }) {
-    if (choice === "section_break") {
+    if ((choice === "")||(choice === null)){
         return (
             <>
-                <div class="w-[35vw] h-[5vh] on_mobile:h-0"></div>
+                <div class="h-[2vh]"></div>
             </>
         )
     }
@@ -33,6 +33,13 @@ export default function Spacers({ choice }) {
         return (
             <>
                 <div class="w-[35vw] h-[5vh] bg-black on_mobile:h-0"></div>
+            </>
+        )
+    }
+    else if (choice === "left_break") {
+        return (
+            <>
+                <div class="w-[35vw] h-[5vh] on_mobile:h-0"></div>
             </>
         )
     }

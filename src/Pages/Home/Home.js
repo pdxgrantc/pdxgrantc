@@ -28,7 +28,8 @@ export default function Home() {
                 </div>
                 <Spacers choice={"left_black_break"} />
                 <Resume />
-                <Spacers choice={"section_break"} />
+                <Spacers choice={"item_footer"} />
+                <Spacers choice={""} />
                 <Projects />
                 <Spacers choice={"item_footer"} />
                 <Footer />
