@@ -4,7 +4,7 @@ export default function Spacers({ choice }) {
     if ((choice === "")||(choice === null)){
         return (
             <>
-                <div class="h-[2vh]"></div>
+                <div class="h-[0vh]"></div>
             </>
         )
     }
