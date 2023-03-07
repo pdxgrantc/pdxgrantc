@@ -42,7 +42,7 @@ export default function Code() {
                                 </a>
                             </>
                             <>
-                                <a className="on_desktop:w-[100%] hover:bg-apps_bg_pressed on_desktop:min-w-[400px] w-fit h-fit on_mobile:w-[100%] min-h-[30vh] bg-apps_bg_color" href={"https://www.shopping.pdxgrantc.com/WebApps"}>
+                                <a className="on_desktop:w-[100%] hover:bg-apps_bg_pressed on_desktop:min-w-[400px] w-fit h-fit on_mobile:w-[100%] min-h-[30vh] bg-apps_bg_color" href={"https://www.pdxgrantc.com/WebApps"}>
                                     <div className="p-[5%] flex flex-col gap-2">
                                         <div className="flex flex-nowrap justify-between h-min">
                                             <p className="text-[2.75rem]">
