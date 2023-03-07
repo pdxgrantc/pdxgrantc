@@ -31,7 +31,6 @@ export default function Home() {
                 <Spacers choice={"item_footer"} />
                 <Spacers choice={""} />
                 <Projects />
-                <Spacers choice={"item_footer"} />
                 <Footer />
             </div>
         </div>

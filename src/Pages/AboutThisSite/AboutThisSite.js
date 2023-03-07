@@ -37,14 +37,13 @@ export default function AboutThisSite() {
                             <img className="h-auto w-[30vw] on_desktop:hidden on_mobile:w-full m-auto" src={react} alt="React"></img>
                             <div className="flex flex-col justify-center gap-5">
                                 <h2 className="text-6xl text-text_blue">Framework</h2>
-                                <h3 className="align-middle leading-[1.1] text-[2.5rem] text-wrap">I chose React to develop this site for the ease of getting a modern, responsive, and scaleable user interface.</h3>
+                                <h3 className="align-middle leading-[1.1] text-[2.5rem] text-wrap">I chose React to develop this site for the ease of getting a modern, responsive, and scaleable user interface. For the visual design and layout of the project I used Tailwind to simplify the CSS implimentation and allow for a cleaner development package.</h3>
                                 <h3 className="align-middle leading-[1.1] text-[2.5rem] text-wrap">Compared to my experiences with technologies like EJS or Handlebars React allowed me to bring this site to production much quicker than expected.</h3>
                             </div>
                             <img className="py-[2vh] m-auto h-[58vh] w-auto on_mobile:hidden" src={react} alt="React"></img>
                         </div>
                     </div>
                 </div>
-                <div className="h-[6vh]"></div>
                 <Footer />
             </div>
         </>

@@ -1,9 +1,12 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 
+// Partials
 import Header from "../../Static/partials/Header";
 import Footer from "../../Static/partials/Footer";
 import Spacers from "../../Static/partials/Spacers";
+import { WebItems } from "./Partials/DataFiles/web-apps";
 
 export default function Code() {
     return (
@@ -17,12 +20,19 @@ export default function Code() {
                 <div className="h-[5vh] on_mobile:h-[2vh] w-[35vw] ml-0 on_mobile:hidden"></div>
                 <div className="on_desktop:bg-black on_desktop:px-[3vw]">
                     <Spacers choice={"item_header"} />
-                    <div className="w-[100%] flex on_desktop:gap-[2vw] justify-between on_mobile:flex-col on_mobile:m-auto bg-black">
-                        <div className="flex flex-col justify-center gap-5 on_mobile:w-[90%] on_mobile:m-auto on_mobile:py-[4vh]">
-                            <h2 className="text-6xl text-text_blue">About This Site</h2>
-                            <h3 className="align-middle leading-[1.1] text-[2.5rem] text-wrap">I chose React to develop this site for the ease of getting a modern, responsive, and scaleable user interface.</h3>
-                            <h3 className="align-middle leading-[1.1] text-[2.5rem] text-wrap">Compared to my experiences with technologies like EJS or Handlebars, React has allowed me to bring this site to production much quicker than expected even with a learning curve.</h3>
-                            <h3 className="align-middle leading-[1.1] text-[2.5rem] text-wrap">For the visual design and layout of the project I used Tailwind to simplify the CSS implimentation and allow for a cleaner development package.</h3>
+                    <div className="w-[100%] m-auto">
+                        <Link className="text-6xl text-text_pink" href={"https://www.apps.pdxgrantc.com"}>Web Apps</Link>
+                        <div className="h-[3vh]"></div>
+                        <div className="flex flex-wrap justify-between on_mobile:flex-col on_mobile:gap-[5%]">
+                            {WebItems.map((data) => {
+                                return (
+                                    <Application
+                                        title={data.title}
+                                        description={data.description}
+                                        link={data.link}
+                                    />
+                                );
+                            })}
                         </div>
                     </div>
                     <Spacers choice={"item_footer"} />
@@ -32,3 +42,27 @@ export default function Code() {
         </>
     );
 }
+
+function get_link(title) {
+    const link = "/Apps/"
+    let path = link.concat(title);
+    return path;
+}
+
+const Application = ({ title, description, link }) => {
+    return (
+        <>
+            <Link className="on_desktop:w-[47%] hover:bg-apps_bg_pressed on_desktop:min-w-[400px] w-fit h-fit on_mobile:w-[100%] min-h-[30vh] bg-apps_bg_color" to={get_link(link)}>
+                <div className="p-[5%]">
+                    <div className="flex flex-nowrap justify-between h-min">
+                        <div>
+                            <p className="text-[2.5rem]">{title}</p>
+
+                        </div>
+                    </div>
+                    <p className="text-[1.8rem] on_desktop:max-w-[42vw] leading-[2rem]">{description}</p>
+                </div>
+            </Link>
+        </>
+    );
+};

@@ -3,7 +3,6 @@ import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 
 import GitHubApps from "./partials/GitHubApps";
-import WebApps from "./partials/WebApps";
 
 import Header from "../../Static/partials/Header";
 import Footer from "../../Static/partials/Footer";
@@ -38,15 +37,10 @@ export default function Code() {
                             <div className="w-[90%] m-auto">
                                 <GitHubApps />
                             </div>
-                            <Spacers choice={"item_break"} />
-                            <div className="w-[90%] m-auto">
-                                <WebApps />
-                            </div>
                             <Spacers choice={"item_footer"} />
                         </div>
                     </div>
                 </div>
-                <div className="h-[6vh]"></div>
                 <Footer />
             </div>
         </>
