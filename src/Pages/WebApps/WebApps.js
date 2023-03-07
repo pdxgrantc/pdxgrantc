@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import Header from "../../Static/partials/Header";
 import Footer from "../../Static/partials/Footer";
 import Spacers from "../../Static/partials/Spacers";
-import { WebItems } from "./Partials/DataFiles/web-apps";
+import { WebItems } from "./DataFiles/web-apps";
 
 export default function Code() {
     return (
