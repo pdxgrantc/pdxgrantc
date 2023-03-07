@@ -8,7 +8,6 @@ import ToDoHomePage from "./Pages/Apps/LocalPages/ToDo/ToDoHomePage/ToDoHomePage
 import Code from "./Pages/Code/Code";
 import NewItem from "./Pages/Apps/LocalPages/ToDo/NewItem/NewItem";
 import ShoppingList from "./Pages/Apps/LocalPages/ShoppingList/ShoppingList";
-import Test from "./Pages/Test/Test";
 
 
 function App() {
@@ -23,7 +22,6 @@ function App() {
         <Route path="/Code" element={<Code />} />
         <Route path="/Shopping-List" element={<ShoppingList />} />
         <Route path="/ToDo/New-Item" element={<NewItem />} />
-        <Route path="/Test" element={<Test />} />
       </Switch>
     </Router>
   )
