@@ -45,7 +45,7 @@ export default function Projects() {
                             </div>
                             <div className="flex gap-12 mt-[2vh]">
                                 <Link className="text-2xl border-b-[1.5px] on_desktop:hover:bg-button_accent_color on_desktop:hover:ease-[cubic-bezier(0.4, 0, 1, 1)] on_desktop:duration-[350ms] on_desktop:hover:px-[1.25vw] py-[.5vh]" to="/about-this-site">About This Site</Link>
-                                <Link className="text-2xl border-b-[1.5px] on_desktop:hover:bg-button_accent_color on_desktop:hover:ease-[cubic-bezier(0.4, 0, 1, 1)] on_desktop:duration-[350ms] on_desktop:hover:px-[1.25vw] py-[.5vh]" to="/ToDo">Web Apps</Link>
+                                <Link className="text-2xl border-b-[1.5px] on_desktop:hover:bg-button_accent_color on_desktop:hover:ease-[cubic-bezier(0.4, 0, 1, 1)] on_desktop:duration-[350ms] on_desktop:hover:px-[1.25vw] py-[.5vh]" to="/WebApps">Web Apps</Link>
                             </div>
                         </div>
                     </div>
