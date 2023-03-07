@@ -6,7 +6,7 @@ import { WebItems } from "./DataFiles/web-apps"
 export default function WebApps() {
     return (
         <div class="w-[100%] m-auto">
-            <h2 class="text-6xl text-text_pink">Web Apps</h2>
+            <Link class="text-6xl text-text_pink" href={"https://www.apps.pdxgrantc.com"}>Web Apps</Link>
             <div class="h-[3vh]"></div>
             <div class="flex flex-wrap justify-between on_mobile:flex-col on_mobile:gap-[5%]">
                 {WebItems.map((data) => {
