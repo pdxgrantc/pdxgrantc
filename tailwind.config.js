@@ -28,6 +28,12 @@ module.exports = {
       min_desktop_height: { 'max': '1000px' },
       // => @media (max-width: 1350px) { ... }
     },
+    extend: {
+      borderRadius: {
+        high: '10px',
+        low: '4px',
+      },
+    },
   },
   plugins: [],
 }
