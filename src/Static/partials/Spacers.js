@@ -11,7 +11,7 @@ export default function Spacers({ choice }) {
     else if (choice === "item_break") {
         return (
             <>
-                <div className="on_desktop:h-[5vh] on_mobile:h-[4vh] on_desktop:bg-black"></div>
+                <div className="on_desktop:h-[3vh] on_mobile:h-[4vh] on_desktop:bg-black"></div>
             </>
         )
     }

@@ -16,7 +16,7 @@ export default function AboutThisSite() {
             </Helmet>
             <div className="m-auto bg-main_bg_color text-text_white">
                 <Header />
-                <div className="h-[5vh] on_mobile:h-[2vh] w-[35vw] ml-0 on_mobile:hidden"></div>
+                <div className="on_mobile:h-[2vh] w-[35vw] ml-0 on_mobile:hidden"></div>
                 <div className=" m-auto on_desktop:flex on_desktop:flex-col on_desktop:gap-[3vh] on_desktop:px-[3vw] on_desktop:bg-black">
                     <div className="w-[100%] on_desktop:m-auto on_desktop:flex on_desktop:gap-[3vh] on_desktop:flex-col">
                         <div >
