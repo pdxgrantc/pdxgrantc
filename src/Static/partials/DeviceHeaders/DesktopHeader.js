@@ -1,9 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 
-// Partials
-import Spacers from '../Spacers';
-
 export default function DesktopHeader() {
     if (window.location.pathname === "/") {
         return (
