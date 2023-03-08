@@ -31,7 +31,7 @@ function get_link(link, title) {
 const Application = ({ title, description, link }) => {
     return (
         <>
-            <a className="on_desktop:w-[47%] hover:bg-apps_bg_pressed on_desktop:min-w-[400px] w-fit h-fit on_mobile:w-[100%] min-h-[30vh] bg-apps_bg_color" href={get_link(link, title)}>
+            <a className="on_desktop:w-[47%] rounded-low hover:bg-apps_bg_pressed on_desktop:min-w-[400px] w-fit h-fit on_mobile:w-[100%] min-h-[30vh] bg-apps_bg_color" href={get_link(link, title)}>
                 <div className="p-[5%]">
                     <div className="flex flex-nowrap justify-between h-min">
                         <div>

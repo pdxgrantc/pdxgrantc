@@ -22,7 +22,7 @@ export default function Code() {
                         <h2 className="text-6xl text-text_pink">Web Apps</h2>
                         <div className="h-[3vh]"></div>
                         <div className="grid grid-cols-2 gap-[2.5vw] on_mobile:flex on_mobile:flex-col on_mobile:gap-[5%]">
-                            <a className="on_desktop:w-[100%] hover:bg-apps_bg_pressed on_desktop:min-w-[400px] w-fit h-fit on_mobile:w-[100%] min-h-[30vh] bg-apps_bg_color" href={"http://www.shopping.pdxgrantc.com"}>
+                            <a className="rounded-low on_desktop:w-[100%] hover:bg-apps_bg_pressed on_desktop:min-w-[400px] w-fit h-fit on_mobile:w-[100%] min-h-[30vh] bg-apps_bg_color" href={"http://www.shopping.pdxgrantc.com"}>
                                 <div className="p-[5%] flex flex-col gap-2">
                                     <div className="flex flex-nowrap justify-between h-min">
                                         <p className="text-[2.75rem]">
@@ -39,7 +39,7 @@ export default function Code() {
                                     </div>
                                 </div>
                             </a>
-                            <a className="on_desktop:w-[100%] hover:bg-apps_bg_pressed on_desktop:min-w-[400px] w-fit h-fit on_mobile:w-[100%] min-h-[30vh] bg-apps_bg_color" href={"https://www.pdxgrantc.com/WebApps"}>
+                            <a className="rounded-low on_desktop:w-[100%] hover:bg-apps_bg_pressed on_desktop:min-w-[400px] w-fit h-fit on_mobile:w-[100%] min-h-[30vh] bg-apps_bg_color" href={"https://www.pdxgrantc.com/WebApps"}>
                                 <div className="p-[5%] flex flex-col gap-2">
                                     <div className="flex flex-nowrap justify-between h-min">
                                         <p className="text-[2.75rem]">
