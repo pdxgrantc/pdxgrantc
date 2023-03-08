@@ -14,7 +14,6 @@ export default function Code() {
             </Helmet>
             <div className="m-auto bg-main_bg_color text-text_white min-h-screen">
                 <Header />
-                <div className="h-[2vh] on_mobile:h-[2vh] w-[35vw] on_desktop:bg-black ml-0"></div>
                 <div className="h-[5vh] on_mobile:h-[2vh] w-[35vw] ml-0 on_mobile:hidden"></div>
                 <div className="on_desktop:bg-black on_desktop:px-[3vw]">
                     <Spacers choice={"item_header"} />
