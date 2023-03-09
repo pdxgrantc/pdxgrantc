@@ -1,12 +1,27 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 
+// Firebase
+import { getStorage, ref, getDownloadURL } from "firebase/storage";
+import { storage } from '../../../firebase';
+
+// Partials
 import Spacers from '../../../Static/partials/Spacers';
 
 export default function Resume() {
+
+    // download resume
+    const storageRef = ref(storage, 'Grant Conklin Resume 2023.pdf');
+    getDownloadURL(storageRef).then((url) => {
+        console.log(url);
+    }).catch((error) => {
+        console.log(error);
+    });
+    
+
     return (
         <div className="bg-black m-auto">
-            <Spacers choice={"item_header"}/>
+            <Spacers choice={"item_header"} />
             <div className="w-[90%] m-auto">
                 <div>
                     <h3 className="text-text_grey text-[2.2rem] on_mobile:pb-4">Work Experience</h3>
@@ -39,11 +54,11 @@ export default function Resume() {
                         </div>
                     </div>
                 </div>
-                <Spacers choice={"item_footer"}/>
+                <Spacers choice={"item_footer"} />
                 <div className="w-full">
                     <Link to="/files/Grant-Resume.pdf" target="_blank" className="text-2xl border-b-[1.5px] on_desktop:hover:bg-button_accent_color on_desktop:hover:ease-[cubic-bezier(0.4, 0, 1, 1)] on_desktop:duration-[350ms] on_desktop:hover:px-[1.25vw] py-[.5vh]" download>Resume Download</Link>
                 </div>
-                <Spacers choice={"item_footer"}/>
+                <Spacers choice={"item_footer"} />
             </div>
         </div>
     )
