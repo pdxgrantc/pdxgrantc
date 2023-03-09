@@ -1,7 +1,7 @@
 // initialize firebase
 import { initializeApp } from 'firebase/app';
 
-import { getStorage } from 'firebase/storage';
+import { ref, getDownloadURL, getStorage } from "firebase/storage";
 
 const firebaseConfig = {
     apiKey: "AIzaSyCnEtu9F2cBZVsbcDr0EAGZ9mCLHJgBPtY",
@@ -19,5 +19,30 @@ const app = initializeApp(firebaseConfig);
 
 const storage = getStorage(app);
 
+const filename = "Grant Conklin Resume 2023.pdf";
+// Get a reference to the file you want to download
+const fileRef = ref(storage, filename);
+// get url
 
-export { storage };
+// Download the file
+const downloadFile = () => {
+    getDownloadURL(fileRef).then((url) => {
+        // Extract the file name from the URL
+        const fileName = url.substring(url.lastIndexOf('/') + 1);
+
+        // Create an `a` tag with the download URL and file name
+        const downloadLink = document.createElement('a');
+        downloadLink.href = url;
+        downloadLink.setAttribute('download', fileName);
+
+        // Add the `a` tag to the document and simulate a click event to download the file
+        document.body.appendChild(downloadLink);
+        // open in new tab
+        downloadLink.target = "_blank";
+        downloadLink.click();
+    });
+}
+
+
+
+export { downloadFile };
