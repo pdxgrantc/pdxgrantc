@@ -12,7 +12,7 @@ export default function AboutThisSite() {
     return (
         <>
             <Helmet>
-                <title>About This Site</title>
+                <title>PDX - About</title>
             </Helmet>
             <div className="m-auto bg-main_bg_color text-text_white">
                 <Header />

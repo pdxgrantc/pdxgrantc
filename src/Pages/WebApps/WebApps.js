@@ -11,7 +11,7 @@ export default function Code() {
     return (
         <>
             <Helmet>
-                <title>Code</title>
+                <title>PDX - Web Apps</title>
             </Helmet>
             <div className="m-auto bg-main_bg_color text-text_white min-h-screen">
                 <Header />

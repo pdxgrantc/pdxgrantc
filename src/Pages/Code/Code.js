@@ -12,7 +12,7 @@ export default function Code() {
     return (
         <>
             <Helmet>
-                <title>Apps</title>
+                <title>PDX - Code</title>
             </Helmet>
             <div className="m-auto bg-main_bg_color text-text_white">
                 <Header />
