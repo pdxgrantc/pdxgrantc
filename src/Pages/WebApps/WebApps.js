@@ -43,7 +43,7 @@ export default function Code() {
                                     </div>
                                     <div className="flex flex-col gap-2">
                                         <p className="text-[1.8rem] on_desktop:max-w-[42vw] leading-[2rem]">
-                                            A web app that allows you to create a shopping list and share it with others. I has functionality to automaticallly split the price by each user for each item.
+                                            A web app that allows you to create a shopping list and share it with others. It has functionality to automaticallly split the price by each user for each item.
                                         </p>
                                         <p className="text-[1.8rem] on_desktop:max-w-[42vw] leading-[2rem]">
                                             Currently Still Under Development
