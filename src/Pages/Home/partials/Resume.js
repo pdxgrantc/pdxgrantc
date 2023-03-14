@@ -14,7 +14,7 @@ export default function Resume() {
                 <div className="w-[90%] m-auto">
                     <div>
                         <h3 className="text-text_grey text-[2.2rem] on_mobile:pb-4">Employment</h3>
-                        <h4 className="py-[1.25vh] text-6xl text-text_pink">Past Employment</h4>
+                        <h4 className="py-[1.25vh] text-6xl text-text_pink">Current Employment</h4>
                         <div className="on_mobile:flex on_mobile:flex-col gap-[10vw] mt-[2vh] text-4xl">
                             <div className='grid grid-cols-work_experience'>
                                 <div className="text-[2.75rem] max-w-[75%]">
