@@ -51,16 +51,19 @@ export default function Code() {
                                     </div>
                                 </div>
                             </a>
-                            <a className="rounded-low on_desktop:w-[100%] hover:bg-apps_bg_pressed on_desktop:min-w-[400px] w-fit h-fit on_mobile:w-[100%] min-h-[30vh] bg-apps_bg_color" href={"https://www.pdxgrantc.com/WebApps"}>
+                            <a className="rounded-low on_desktop:w-[100%] hover:bg-apps_bg_pressed on_desktop:min-w-[400px] w-fit h-fit on_mobile:w-[100%] min-h-[30vh] bg-apps_bg_color" href={"https://www.cocktails.pdxgrantc.com"}>
                                 <div className="p-[5%] flex flex-col gap-2">
                                     <div className="flex flex-nowrap justify-between h-min">
                                         <p className="text-[2.75rem]">
-                                            ToDo
+                                            Cocktail Calculator
                                         </p>
                                     </div>
                                     <div className="flex flex-col gap-2">
                                         <p className="text-[1.8rem] on_desktop:max-w-[42vw] leading-[2rem]">
-                                            In Development
+                                            This web app will allow users to enter the cocktail ingredients they have and the app will return a list of posible cocktails that can be made with the ingredients they have on hand.
+                                        </p>
+                                        <p className="text-[1.8rem] on_desktop:max-w-[42vw] leading-[2rem]">
+                                            Currently Still Under Development
                                         </p>
                                     </div>
                                 </div>
