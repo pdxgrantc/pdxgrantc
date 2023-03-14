@@ -22,10 +22,14 @@ export default function Resume() {
                                         <h5 className="on_mobile:leading-[2.8rem] on_mobile:pb-2">Student Technology Consultant</h5>
                                         <h6 className="pt-[.75rem] text-[1.65rem] on_mobile:leading-[2rem]">Oregon State University College of Forestry</h6>
                                     </div>
-                                    <p className="text-[1.2rem] leading-8 on_mobile:leading-[1.4rem]">
-                                        Individual user computer support setup and software assistance; using systems such as MECM and PXE to make the process of Windows system setup as easy and streamlined as possible.
-                                    </p>
-
+                                    <div className='flex flex-col gap-1'>
+                                        <p className="text-[1.2rem] leading-8 on_mobile:leading-[1.4rem]">
+                                            Individual user computer support setup and software assistance; using systems such as MECM and PXE to make the process of Windows system setup as easy and streamlined as possible.
+                                        </p>
+                                        <p className="text-[1.2rem] leading-8 on_mobile:leading-[1.4rem]">
+                                            I was also responsible for communicating with users to find their needs in computing and make that into a reality. A large portion of this was carried out for software licensing and ensuring that they get the most applicable tool for their needs.
+                                        </p>
+                                    </div>
                                 </div>
                                 <div className='text-[2rem]'>
                                     <p>April 2022</p>
