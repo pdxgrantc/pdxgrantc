@@ -34,6 +34,9 @@ module.exports = {
         high: '10px',
         low: '6px',
       },
+      gridTemplateColumns: {
+        work_experience: "80% 20%",
+      },
     },
   },
   plugins: [],
