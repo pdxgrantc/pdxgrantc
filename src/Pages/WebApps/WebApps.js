@@ -60,7 +60,7 @@ export default function Code() {
                                             This web app is designed to allow users to log the courses they plan or have played at; for each course users can create games and track their scores.
                                         </p>
                                         <p className="text-[1.8rem] on_desktop:max-w-[42vw] leading-[2rem]">
-                                            Currently Still Under Development
+                                            The app has full functionality but styling and usability are still being worked on.
                                         </p>
                                     </div>
                                 </div>
