@@ -48,23 +48,6 @@ export default function Code() {
                                     </div>
                                 </div>
                             </a>
-                            <a className="rounded-low on_desktop:w-[100%] hover:bg-apps_bg_pressed on_desktop:min-w-[400px] w-fit h-fit on_mobile:w-[100%] min-h-[30vh] bg-apps_bg_color" href={"https://www.disk.pdxgrantc.com"}>
-                                <div className="p-[5%] flex flex-col gap-2">
-                                    <div className="flex flex-nowrap justify-between h-min">
-                                        <p className="text-[2.75rem]">
-                                            Disk Golf Course and Score Tracker
-                                        </p>
-                                    </div>
-                                    <div className="flex flex-col gap-2">
-                                        <p className="text-[1.8rem] on_desktop:max-w-[42vw] leading-[2rem]">
-                                            This web app is designed to allow users to log the courses they plan or have played at; for each course users can create games and track their scores.
-                                        </p>
-                                        <p className="text-[1.8rem] on_desktop:max-w-[42vw] leading-[2rem]">
-                                            Currently Still Under Development
-                                        </p>
-                                    </div>
-                                </div>
-                            </a>
                             <a className="rounded-low on_desktop:w-[100%] hover:bg-apps_bg_pressed on_desktop:min-w-[400px] w-fit h-fit on_mobile:w-[100%] min-h-[30vh] bg-apps_bg_color" href={"https://www.cocktails.pdxgrantc.com"}>
                                 <div className="p-[5%] flex flex-col gap-2">
                                     <div className="flex flex-nowrap justify-between h-min">
