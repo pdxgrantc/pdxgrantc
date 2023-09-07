@@ -14,7 +14,7 @@ export default function Projects() {
                     <div className="flex on_mobile:flex-col gap-[10vw] mt-[2vh] text-4xl">
                         <div className="text-[2.75rem]">
                             <div className="on_mobile:pb-3">
-                                <h5 className="on_mobile:leading-[2.8rem] on_mobile:pb-2">Bash Like Terminal</h5>
+                                <h5 className="on_mobile:leading-[2.8rem] on_mobile:pb-2">Small Shell</h5>
                                 <h6 className="pt-[.75rem] text-[1.65rem] on_mobile:leading-[2rem]">I was tasked to create a terminal similar to bash with multi-process and background capability. The terminal allows Linux binaries to be called from the bin directory. The input has error checking and was developed entirely in the C language.</h6>
                             </div>
                         </div>
