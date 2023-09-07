@@ -14,7 +14,7 @@ export default function Home() {
     return (
         <div>
             <Helmet>
-                <title>PDX - Home</title>
+                <title>Home</title>
             </Helmet>
             <div className="m-auto bg-main_bg_color text-text_white">
                 <Header />
