@@ -64,7 +64,7 @@ export default function Resume() {
                                     <h5 className="on_mobile:leading-[2.8rem] on_mobile:pb-2">Free Geek Portland</h5>
                                     <h6 className="pt-[.75rem] text-[1.65rem] on_mobile:leading-[2rem]">Electronics Recycling</h6>
                                 </div>
-                                <p className="text-[1.2rem] on_mobile:leading-[1.4rem]">Taking apart and sorting by material type computer compnents to avoid e-waste.</p>
+                                <p className="text-[1.2rem] on_mobile:leading-[1.4rem]">Taking apart and sorting by material type computer components to avoid e-waste.</p>
                             </div>
                         </div>
                     </div>
